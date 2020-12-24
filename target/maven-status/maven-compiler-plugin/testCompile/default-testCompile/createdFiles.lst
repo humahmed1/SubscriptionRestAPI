@@ -1,0 +1,5 @@
+cucumber/cucumberTests/CucumberIntgTest.class
+karateTests/KarateTestRunner.class
+cucumber/cucumberTests/glue/SubscriptionSteps.class
+com/example/project/SubscriptionControllerTest.class
+cucumber/cucumberTests/CucumberConfiguration.class

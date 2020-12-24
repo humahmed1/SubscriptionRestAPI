@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: subscriptions-k8s-docker
+  labels:
+    app: subscriptions
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: subscriptions
+  template:
+    metadata:
+      labels:
+        app: subscriptions
+    spec:
+      containers:
+        - name: subscriptions
+          image: humahmed1/subscription
+          ports:
+            - containerPort: 8085
