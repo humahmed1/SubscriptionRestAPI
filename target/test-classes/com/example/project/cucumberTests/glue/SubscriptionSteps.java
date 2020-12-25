@@ -1,4 +1,4 @@
-package cucumber.cucumberTests.glue;
+package com.example.project.cucumberTests.glue;
 
 import com.example.project.model.Subscription;
 import com.example.project.repository.SubscriptionRepository;

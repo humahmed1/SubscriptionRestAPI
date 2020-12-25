@@ -1,4 +1,4 @@
-package cucumber.cucumberTests;
+package com.example.project.cucumberTests;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.cucumber.java.DefaultDataTableCellTransformer;

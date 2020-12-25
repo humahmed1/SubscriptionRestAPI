@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+<meta charset="utf-8">
+    
+<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    
+<link href="res/bootstrap.min.css" rel="stylesheet" type="text/css">
+    
+<link href="res/karate-report.css" rel="stylesheet" type="text/css">
+    
+<link href="favicon.ico" rel="shortcut icon">
+    
+<script src="res/jquery.min.js" type="text/javascript"></script>
+    <script src="res/jquery.tablesorter.min.js" type="text/javascript"></script>
+    <script src="res/bootstrap.min.js" type="text/javascript"></script>
+    <script src="res/karate-report.js" type="text/javascript"></script>
+    
+<title>com.example.project.karateTests.subscriptionK</title>
+  
+</head>
+  
+<body>
+    
+<div id="root-container">
+      
+<div id="leftnav">
+        
+<div class="nav-logo">
+          
+<a href="karate-summary.html">
+            <img alt="Karate" src="res/karate-logo.svg">
+          </a>
+          
+<div class="nav-count">
+            
+<div class="bg-success" id="nav-pass">5</div>
+            
+<div class="bg-danger" id="nav-fail">0</div>
+          
+</div>
+        
+</div>
+        
+<div id="nav-type">Scenarios</div>         
+        
+<div id="nav-date">2020-12-25 01:46:10 AM</div>        
+      
+<div class="nav-container">
+<div class="nav-item passed">
+<a href="#[1:6]">[1:6] Retrieve all subscriptions </a>
+</div>
+<div class="nav-item passed">
+<a href="#[2:11]">[2:11] Retrieve one subscription </a>
+</div>
+<div class="nav-item passed">
+<a href="#[3:16]">[3:16] Add a new subscription </a>
+</div>
+<div class="nav-item passed">
+<a href="#[4:22]">[4:22] Delete one subscription </a>
+</div>
+<div class="nav-item passed">
+<a href="#[5:27]">[5:27] Update a subscription </a>
+</div>
+</div>
+</div>
+      
+<div id="content">
+      
+<div class="page-heading alert alert-primary">
+<a href="karate-summary.html">Summary</a><span class="feature-label">|</span><a href="karate-tags.html">Tags</a><span class="feature-label">|</span><span class="feature-label">Feature:</span><span class="feature-name">com/example/project/karateTests/subscriptionK.feature</span><span class="feature-description">CRUD functionality Subscriptions</span>
+</div>
+<div class="scenario">
+<div class="scenario-heading" id="[1:6]">
+<div class="heading-container">
+<div class="scenario-tags"></div>
+<span class="scenario-keyword">Scenario: [1:6]</span><span class="scenario-name">Retrieve all subscriptions </span>
+</div>
+<div class="scenario-time passed">ms: 403</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="[1:6]bg">
+<div class="step-ref bg-step">&gt;&gt;</div>
+<div class="step-cell passed">Background:</div>
+</div>
+<div class="time-cell passed"></div>
+</div>
+<div class="step-row" data-parent="[1:6]bg">
+<div class="step-container" id="1">
+<div class="step-ref bg-step">1</div>
+<div class="step-cell passed">* url 'http://localhost:8085/'</div>
+</div>
+<div class="time-cell passed">2</div>
+</div>
+<div class="preformatted" data-parent="1">01:46:09.990 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
+<div class="step-row">
+<div class="step-container" id="2">
+<div class="step-ref passed">2</div>
+<div class="step-cell passed">Given path 'subscriptions'</div>
+</div>
+<div class="time-cell passed">2</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="3">
+<div class="step-ref passed">3</div>
+<div class="step-cell passed">When method get</div>
+</div>
+<div class="time-cell passed">399</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="4">
+<div class="step-ref passed">4</div>
+<div class="step-cell passed">Then status 200</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+</div>
+<div class="scenario">
+<div class="scenario-heading" id="[2:11]">
+<div class="heading-container">
+<div class="scenario-tags"></div>
+<span class="scenario-keyword">Scenario: [2:11]</span><span class="scenario-name">Retrieve one subscription </span>
+</div>
+<div class="scenario-time passed">ms: 23</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="[2:11]bg">
+<div class="step-ref bg-step">&gt;&gt;</div>
+<div class="step-cell passed">Background:</div>
+</div>
+<div class="time-cell passed"></div>
+</div>
+<div class="step-row" data-parent="[2:11]bg">
+<div class="step-container" id="5">
+<div class="step-ref bg-step">5</div>
+<div class="step-cell passed">* url 'http://localhost:8085/'</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="preformatted" data-parent="5">01:46:10.404 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
+<div class="step-row">
+<div class="step-container" id="6">
+<div class="step-ref passed">6</div>
+<div class="step-cell passed">Given path 'subscriptions/1'</div>
+</div>
+<div class="time-cell passed">1</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="7">
+<div class="step-ref passed">7</div>
+<div class="step-cell passed">When method get</div>
+</div>
+<div class="time-cell passed">21</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="8">
+<div class="step-ref passed">8</div>
+<div class="step-cell passed">Then status 200</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+</div>
+<div class="scenario">
+<div class="scenario-heading" id="[3:16]">
+<div class="heading-container">
+<div class="scenario-tags"></div>
+<span class="scenario-keyword">Scenario: [3:16]</span><span class="scenario-name">Add a new subscription </span>
+</div>
+<div class="scenario-time passed">ms: 77</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="[3:16]bg">
+<div class="step-ref bg-step">&gt;&gt;</div>
+<div class="step-cell passed">Background:</div>
+</div>
+<div class="time-cell passed"></div>
+</div>
+<div class="step-row" data-parent="[3:16]bg">
+<div class="step-container" id="9">
+<div class="step-ref bg-step">9</div>
+<div class="step-cell passed">* url 'http://localhost:8085/'</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="preformatted" data-parent="9">01:46:10.432 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
+<div class="step-row">
+<div class="step-container" id="10">
+<div class="step-ref passed">10</div>
+<div class="step-cell passed">Given path 'subscriptions'</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="11">
+<div class="step-ref passed">11</div>
+<div class="step-cell passed">And request {name: 'iCloud', price: 0.79, date: 24, account: 'Lloyds'}</div>
+</div>
+<div class="time-cell passed">8</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="12">
+<div class="step-ref passed">12</div>
+<div class="step-cell passed">When method post</div>
+</div>
+<div class="time-cell passed">69</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="13">
+<div class="step-ref passed">13</div>
+<div class="step-cell passed">Then status 201</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+</div>
+<div class="scenario">
+<div class="scenario-heading" id="[4:22]">
+<div class="heading-container">
+<div class="scenario-tags"></div>
+<span class="scenario-keyword">Scenario: [4:22]</span><span class="scenario-name">Delete one subscription </span>
+</div>
+<div class="scenario-time passed">ms: 16</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="[4:22]bg">
+<div class="step-ref bg-step">&gt;&gt;</div>
+<div class="step-cell passed">Background:</div>
+</div>
+<div class="time-cell passed"></div>
+</div>
+<div class="step-row" data-parent="[4:22]bg">
+<div class="step-container" id="14">
+<div class="step-ref bg-step">14</div>
+<div class="step-cell passed">* url 'http://localhost:8085/'</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="preformatted" data-parent="14">01:46:10.514 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
+<div class="step-row">
+<div class="step-container" id="15">
+<div class="step-ref passed">15</div>
+<div class="step-cell passed">Given path 'subscriptions/3'</div>
+</div>
+<div class="time-cell passed">2</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="16">
+<div class="step-ref passed">16</div>
+<div class="step-cell passed">When method delete</div>
+</div>
+<div class="time-cell passed">15</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="17">
+<div class="step-ref passed">17</div>
+<div class="step-cell passed">Then status 204</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+</div>
+<div class="scenario">
+<div class="scenario-heading" id="[5:27]">
+<div class="heading-container">
+<div class="scenario-tags"></div>
+<span class="scenario-keyword">Scenario: [5:27]</span><span class="scenario-name">Update a subscription </span>
+</div>
+<div class="scenario-time passed">ms: 13</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="[5:27]bg">
+<div class="step-ref bg-step">&gt;&gt;</div>
+<div class="step-cell passed">Background:</div>
+</div>
+<div class="time-cell passed"></div>
+</div>
+<div class="step-row" data-parent="[5:27]bg">
+<div class="step-container" id="18">
+<div class="step-ref bg-step">18</div>
+<div class="step-cell passed">* url 'http://localhost:8085/'</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="preformatted" data-parent="18">01:46:10.534 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
+<div class="step-row">
+<div class="step-container" id="19">
+<div class="step-ref passed">19</div>
+<div class="step-cell passed">Given path 'subscriptions/1'</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="20">
+<div class="step-ref passed">20</div>
+<div class="step-cell passed">And request {name: 'Amazon Prime', price: 7.99, date: 24, account: 'Amex'}</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="21">
+<div class="step-ref passed">21</div>
+<div class="step-cell passed">When method put</div>
+</div>
+<div class="time-cell passed">12</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="22">
+<div class="step-ref passed">22</div>
+<div class="step-cell passed">Then status 200</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+</div>
+</div>
+    
+</div>   
+  
+</body>
+
+</html>
