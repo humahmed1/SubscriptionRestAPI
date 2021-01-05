@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.example.project.cucumberTests.CucumberIntgTest
--------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.132 s - in com.example.project.cucumberTests.CucumberIntgTest
