@@ -1,0 +1,361 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-05T15:41:03.371Z",
+        "before": [
+          {
+            "result": {
+              "duration": 89660000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.project.cucumberTests.glue.SubscriptionSteps.setup()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "A user gets all subscriptions",
+        "description": "",
+        "id": "subscription-feature;a-user-gets-all-subscriptions",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 153484000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "a user requests all subscriptions",
+            "match": {
+              "location": "com.example.project.cucumberTests.glue.SubscriptionSteps.whenUserRequestsAllSubscriptions()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2828000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "all the subscriptions are returned",
+            "match": {
+              "location": "com.example.project.cucumberTests.glue.SubscriptionSteps.thenAllTheSubscriptionsAreReturned()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3489000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 19
+                }
+              ],
+              "location": "com.example.project.cucumberTests.glue.SubscriptionSteps.andTheStatusCodeIs(int)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-05T15:41:03.660Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1802000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.project.cucumberTests.glue.SubscriptionSteps.setup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "A user gets a specific subscription",
+        "description": "",
+        "id": "subscription-feature;a-user-gets-a-specific-subscription",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19690000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "a user requests a subscription with the id 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 43
+                }
+              ],
+              "location": "com.example.project.cucumberTests.glue.SubscriptionSteps.whenUserRequestsASubscription(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 207000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the subscription is returned",
+            "match": {
+              "location": "com.example.project.cucumberTests.glue.SubscriptionSteps.thenTheSubscriptionIsReturned()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 531000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 19
+                }
+              ],
+              "location": "com.example.project.cucumberTests.glue.SubscriptionSteps.andTheStatusCodeIs(int)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-05T15:41:03.691Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1444000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.project.cucumberTests.glue.SubscriptionSteps.setup()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "A user posts a new subscription",
+        "description": "",
+        "id": "subscription-feature;a-user-posts-a-new-subscription",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 27515000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "a user posts a new subscription iCloud with price 0.79 date 20 account Amex",
+            "match": {
+              "arguments": [
+                {
+                  "val": "iCloud",
+                  "offset": 32
+                },
+                {
+                  "val": "0.79",
+                  "offset": 50
+                },
+                {
+                  "val": "20",
+                  "offset": 60
+                },
+                {
+                  "val": "Amex",
+                  "offset": 71
+                }
+              ],
+              "location": "com.example.project.cucumberTests.glue.SubscriptionSteps.whenUserPostsANewSubscription(java.lang.String,double,int,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1643000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "it is in the database",
+            "match": {
+              "location": "com.example.project.cucumberTests.glue.SubscriptionSteps.thenItIsInTheDatabase()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 416000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "it has an id",
+            "match": {
+              "location": "com.example.project.cucumberTests.glue.SubscriptionSteps.andItHasAnId()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 160000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the status code is 201",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 19
+                }
+              ],
+              "location": "com.example.project.cucumberTests.glue.SubscriptionSteps.andTheStatusCodeIs(int)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-05T15:41:03.730Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1557000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.project.cucumberTests.glue.SubscriptionSteps.setup()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "A user deletes a subscription",
+        "description": "",
+        "id": "subscription-feature;a-user-deletes-a-subscription",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21915000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "a user deletes a subscription with the id 4",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 42
+                }
+              ],
+              "location": "com.example.project.cucumberTests.glue.SubscriptionSteps.whenUserDeletesASubscription(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13284000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "it is removed from the database",
+            "match": {
+              "location": "com.example.project.cucumberTests.glue.SubscriptionSteps.thenItIsRemovedFromTheDatabase()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-05T15:41:03.776Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1782000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.project.cucumberTests.glue.SubscriptionSteps.setup()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "A user updates a subscription",
+        "description": "",
+        "id": "subscription-feature;a-user-updates-a-subscription",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9861000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "a user updates a subscription with the id 1 to name Amazon Prime price 7.99 date 19 account Lloyds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 42
+                },
+                {
+                  "val": "Amazon Prime",
+                  "offset": 52
+                },
+                {
+                  "val": "7.99",
+                  "offset": 71
+                },
+                {
+                  "val": "19",
+                  "offset": 81
+                },
+                {
+                  "val": "Lloyds",
+                  "offset": 92
+                }
+              ],
+              "location": "com.example.project.cucumberTests.glue.SubscriptionSteps.whenUserUpdatesASubscription(int,java.lang.String,double,int,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 448000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "the subscription body is updated",
+            "match": {
+              "location": "com.example.project.cucumberTests.glue.SubscriptionSteps.thenTheSubscriptionBodyIsUpdated()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "subscription feature",
+    "description": "",
+    "id": "subscription-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/example/project/cucumberTests/features/subscription.feature",
+    "tags": []
+  }
+]
