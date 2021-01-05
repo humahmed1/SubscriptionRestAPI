@@ -4,8 +4,8 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                tool name: '3.6.3', type: 'maven'
-                sh 'mvn -B -DskipTests clean package'
+                def mvn = tool name: '3.6.3', type: 'maven'
+                sh "${mvn}/bin/mvn -B -DskipTests clean package"
             }
         }
     }
