@@ -1,6 +1,8 @@
 package com.example.project.cucumberTests;
 
 import com.example.project.ProjectApplication;
+import com.intuit.karate.KarateOptions;
+import com.intuit.karate.junit4.Karate;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import io.cucumber.spring.CucumberContextConfiguration;
@@ -17,6 +19,5 @@ import org.springframework.boot.test.context.SpringBootTest;
                 "html:target/cucumber-reports/cucumber.html",
                 "json:target/cucumber-reports/cucumber.json"})
 public class CucumberIntgTest {
-
 
 }

@@ -20,7 +20,7 @@ Feature: CRUD functionality Subscriptions
     Then status 201
 
   Scenario: Delete one subscription
-    Given path 'subscriptions/3'
+    Given path 'subscriptions/4'
     When method delete
     Then status 204
 

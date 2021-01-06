@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.example.project.karateTests.KarateTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.172 sec <<< FAILURE! - in com.example.project.karateTests.KarateTest
-initializationError(com.example.project.karateTests.KarateTest)  Time elapsed: 0.002 sec  <<< ERROR!
-java.lang.ExceptionInInitializerError
-Caused by: java.lang.NullPointerException: Cannot invoke "javax.script.ScriptEngine.createBindings()" because "com.intuit.karate.ScriptBindings.NASHORN" is null
-
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.137 sec - in com.example.project.karateTests.KarateTest

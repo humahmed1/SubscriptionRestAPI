@@ -1,5 +1,5 @@
-com/example/project/cucumberTests/CucumberConfiguration.class
 com/example/project/cucumberTests/CucumberIntgTest.class
-com/example/project/karateTests/KarateTest.class
 com/example/project/SubscriptionControllerTest.class
 com/example/project/cucumberTests/glue/SubscriptionSteps.class
+com/example/project/cucumberTests/CucumberConfiguration.class
+com/example/project/karateTests/KarateTest.class

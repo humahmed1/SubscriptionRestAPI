@@ -1,0 +1,29 @@
+-------------------------------------------------------------------------------
+Test set: com.example.project.cucumberTests.KarateTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.864 sec <<< FAILURE! - in com.example.project.cucumberTests.KarateTest
+[1:6] Retrieve all subscriptions([subscriptionK] CRUD functionality Subscriptions)  Time elapsed: 0.211 sec  <<< ERROR!
+com.intuit.karate.exception.KarateException: 
+subscriptionK.feature:8 - 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8085 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused (Connection refused)
+
+[2:11] Retrieve one subscription([subscriptionK] CRUD functionality Subscriptions)  Time elapsed: 0.007 sec  <<< ERROR!
+com.intuit.karate.exception.KarateException: 
+subscriptionK.feature:13 - 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8085 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused (Connection refused)
+
+[3:16] Add a new subscription([subscriptionK] CRUD functionality Subscriptions)  Time elapsed: 0.042 sec  <<< ERROR!
+com.intuit.karate.exception.KarateException: 
+subscriptionK.feature:19 - 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8085 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused (Connection refused)
+
+[4:22] Delete one subscription([subscriptionK] CRUD functionality Subscriptions)  Time elapsed: 0.009 sec  <<< ERROR!
+com.intuit.karate.exception.KarateException: 
+subscriptionK.feature:24 - 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8085 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused (Connection refused)
+
+[5:27] Update a subscription([subscriptionK] CRUD functionality Subscriptions)  Time elapsed: 0.006 sec  <<< ERROR!
+com.intuit.karate.exception.KarateException: 
+subscriptionK.feature:30 - 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8085 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused (Connection refused)
+
