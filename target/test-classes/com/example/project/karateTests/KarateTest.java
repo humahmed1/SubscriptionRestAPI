@@ -7,3 +7,4 @@ import org.junit.runner.RunWith;
 class KarateTest {
 
 }
+

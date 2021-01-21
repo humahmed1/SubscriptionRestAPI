@@ -15,7 +15,7 @@
 	<description>RESTful Project Spring Boot</description>
 
 	<properties>
-		<java.version>11</java.version>
+		<java.version>1.8</java.version>
 	</properties>
 
 	<dependencies>
@@ -36,7 +36,6 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
@@ -95,15 +94,19 @@
 			<version>6.0.0</version>
 		</dependency>
 		<dependency>
-			<groupId>io.cucumber</groupId>
-			<artifactId>cucumber-jvm-deps</artifactId>
-			<version>1.0.6</version>
-			<scope>provided</scope>
-		</dependency>
-		<dependency>
 			<groupId>cglib</groupId>
 			<artifactId>cglib</artifactId>
 			<version>3.3.0</version>
+		</dependency>
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger2</artifactId>
+			<version>2.9.2</version>
+		</dependency>
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger-ui</artifactId>
+			<version>2.9.2</version>
 		</dependency>
 		<dependency>
 			<groupId>com.aventstack</groupId>
@@ -147,6 +150,11 @@
 		</testResources>
 		<plugins>
 			<plugin>
+				<groupId>com.google.cloud.tools</groupId>
+				<artifactId>appengine-maven-plugin</artifactId>
+				<version>2.4.0</version>
+			</plugin>
+			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>exec-maven-plugin</artifactId>
 				<version>3.0.0</version>
@@ -166,7 +174,6 @@
 				</configuration>
 			</plugin>
 
-
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -185,6 +192,9 @@
 					<includes>
 						<include>**/*Test.java</include>
 					</includes>
+<!--					<excludes>-->
+<!--						<exclude>KarateTest.java</exclude>-->
+<!--					</excludes>-->
 				</configuration>
 			</plugin>
 

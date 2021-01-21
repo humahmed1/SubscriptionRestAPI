@@ -11,15 +11,9 @@ pipeline {
             }
         }
 
-        stage('Run') {
+        stage('Test: Cucumber Tests') {
             steps {
-                sh 'mvn install -DskipTests exec:java'
-            }
-        }
-
-        stage('Test') {
-            steps {
-                sh 'mvn test'
+                sh 'mvn verify'
             }
         }
 
